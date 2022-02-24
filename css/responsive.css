@@ -1,0 +1,232 @@
+
+.head-wrap i.nav_bar{
+    display: none;
+    position: relative;
+}
+
+
+/* Medium ≥768px Tablet Display */
+@media(max-width: 767px) {
+
+    section{
+        padding-bottom: 70px !important;
+    }
+    /* Header */
+
+    .head-wrap{ 
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+    }
+    .right-head{
+        display: none !important;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        padding-bottom:20px;
+    }
+    .left-head{
+        width: 100%;
+    }
+    .nav_active {
+        display: flex !important;
+    }
+    .right-head a{
+        margin: 5px 0px ;
+    }
+    .head-wrap i.nav_bar{
+        display: block;
+        position: absolute;
+        right: 0;
+        padding-right: 15px;
+        font-size: 1.7em;
+        color:var(--primary-color);
+    }
+
+/* slider */
+
+
+#slider{
+    height: 70vh !important;
+}
+.slider_wrap{
+    width: 100%;
+    height: 70vh !important;
+}
+.slider_single{
+    height: 70vh !important;
+}
+.slider_single .container h2{
+    padding-top: 130px !important;
+}
+
+/* about  */
+
+
+.about_wrap{
+  flex-direction: column;
+}
+.about_right{
+    width: 100% !important;
+}
+.about_left{
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.about_right h1{
+    font-size: 2em !important;
+}
+.about_right h2{
+    font-size: 1.5em !important;
+}
+/* skills */
+
+
+#skills{
+    padding-top: 50px !important;
+}
+.skills_containt{
+    padding: 30px !important;
+}
+
+
+/* completed */
+
+.completed_single{
+    width: 50% !important;
+    padding-bottom: 40px;
+}
+
+.completed_wrap{
+    flex-wrap: wrap;
+}
+#completed{
+    padding: 40px 0px 0px 0px !important;
+}
+
+/* ------------ SARVICE ------------ */
+
+
+.sarvice_wrap{
+    flex-direction: column;
+}
+
+.sarvice_single{
+    width: 330px !important;
+}
+
+/* hire */
+
+.hire_contant h2{
+    font-size: 1.5em !important;
+}
+
+    /* Projects */
+
+
+.projects_wrap{
+    flex-direction: column;
+}
+.projects_single{
+    width: 100% !important;
+}
+
+
+.contact_wrap{
+flex-direction: column;
+}
+.cotact_from{
+    align-items: center;
+}
+.contact_left{
+    width: 100% !important;
+}.contact_right{
+    width: 100% !important;
+    text-align: center;
+}
+.cotact_from textarea{
+    width: 250px !important;
+    height: 30px !important;
+}
+.cotact_from input{
+    width: 250px !important;
+    height: 40px !important;
+}
+
+
+
+}
+
+
+
+
+
+/* Small ≥576px Mobile Display */
+@media (max-width: 575px) {
+
+    section{
+        padding-bottom: 60px !important;
+    }
+
+
+
+    .slider_single img{
+        object-fit: cover;
+    }
+    #slider{
+        height: 60vh !important;
+    }
+    .slider_wrap{
+        width: 100%;
+        height: 60vh !important;
+    }
+    .slider_single{
+        height: 60vh !important;
+    }
+    .slider_single .container h2{
+        padding-top: 120px !important;
+        font-size: 1.8em !important;
+    }
+    .slider_single .container h1{
+        font-size: 2em !important;
+    }
+    .about_left img{
+        width: 250px !important;
+        height: 250px !important;
+    }
+
+    .about_right h1{
+        font-size: 1.7em !important;
+    }
+    .about_right h2{
+        font-size: 1.2em !important;
+    }
+    .about_right p{
+        font-size: .9em !important;
+    }
+
+    .sarvice_single{
+        width: 300px !important;
+    }
+    /* hire */
+    .hire_contant h2{
+        font-size: 1.2em !important;
+    }
+
+    .app_btn{
+        font-size: .9em !important;
+        padding: 11px 15px !important;
+    }
+
+
+
+
+
+
+
+
+}

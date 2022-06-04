@@ -422,7 +422,7 @@ button.slick-next-cou.slick-arrow:hover,button.slick-prev-cou.slick-arrow:hover{
 .skills_prsent3::after{
     position: absolute;
     content: "";
-    width: 55%;
+    width: 75%;
     background: linear-gradient(270deg,#f2709c,#ff9472);
     height: 100%;
     border-radius: 20px;
@@ -453,7 +453,7 @@ button.slick-next-cou.slick-arrow:hover,button.slick-prev-cou.slick-arrow:hover{
 .skills_prsent5::after{
     position: absolute;
     content: "";
-    width: 20%;
+    width: 70%;
     background: linear-gradient(270deg,#f2709c,#ff9472);
     height: 100%;
     border-radius: 20px;
@@ -461,6 +461,27 @@ button.slick-next-cou.slick-arrow:hover,button.slick-prev-cou.slick-arrow:hover{
     left: 0;
 }
 
+.skills_prsent6::after{
+    position: absolute;
+    content: "";
+    width: 80%;
+    background: linear-gradient(270deg,#f2709c,#ff9472);
+    height: 100%;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+}
+
+.skills_prsent7::after{
+    position: absolute;
+    content: "";
+    width: 75%;
+    background: linear-gradient(270deg,#f2709c,#ff9472);
+    height: 100%;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+}
 
 /* completed */
 
